@@ -1,0 +1,15 @@
+{
+  "name": "testdrivendevelopment",
+  "version": "1.0.0",
+  "description": "learning TDD",
+  "main": "problem-1.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "rutvik",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  }
+}
