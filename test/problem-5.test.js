@@ -2,7 +2,7 @@ const chai = require('chai');
 const expect = chai.expect;
 const reverseList = require('../problem-5');
 
-describe.only('Testing reverseList function', () => {
+describe('Testing reverseList function', () => {
     it('Should return nothing when list is not passed', () => {
         let result = reverseList();
         expect(result).to.be.undefined;
